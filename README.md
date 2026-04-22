@@ -1,10 +1,10 @@
-# 🧪 Culture Compass — QA & Test Automation
+#  Culture Compass - QA & Test Automation
 
 > Automated frontend testing for [culturecompass.co](https://culturecompass.co) — built from scratch with Robot Framework, SeleniumLibrary, and GitHub Actions CI/CD.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 When I joined the Culture Compass project, there was **zero test coverage**. I built the entire QA layer from the ground up — automated UI tests, CI/CD integration, scheduled runs, and failure alerting — so the team could ship with confidence.
 
@@ -30,7 +30,7 @@ When I joined the Culture Compass project, there was **zero test coverage**. I b
 
 ---
 
-## 📁 Test Structure
+##  Test Structure
 
 ```
 tests/
@@ -42,7 +42,7 @@ tests/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.11+
@@ -59,7 +59,7 @@ pip install webdriver-manager
 
 ---
 
-## ▶️ Running the Tests
+##  Running the Tests
 
 ### Run All Tests
 ```bash
@@ -83,17 +83,17 @@ After running, open these files in your browser:
 
 ---
 
-## 🔁 CI/CD Integration
+##  CI/CD Integration
 
 Tests are fully integrated into the GitHub Actions pipeline.
 
-**Workflow file:** `.github/workflows/cicd.yaml`
+**Workflow file:** `.github/workflows/cicd.yaml.`
 
 ### Triggers
-- ✅ Push to `main`
-- ✅ Pull request to `main`
+- ✅ Push to `main.`
+- ✅ Pull request to `main.`
 - ✅ Daily scheduled run at **08:00 UTC**
-- ✅ Manual trigger via `workflow_dispatch`
+- ✅ Manual trigger via `workflow_dispatch.`
 
 ```yaml
 schedule:
@@ -109,7 +109,7 @@ schedule:
 
 ---
 
-## ✅ Test Coverage
+##  Test Coverage
 
 ### Homepage
 - [x] Page loads successfully
@@ -131,22 +131,22 @@ schedule:
 
 ---
 
-## 🔒 Security Note
+##  Security Note
 
 The pipeline flagged a **Gitleaks false positive** in `app.js`. After reviewing, I confirmed it was not a real secret and added a `.gitleaks.toml` config to handle it safely without suppressing real secret scanning.
 
 ---
 
-## 📝 Best Practices Used
+##  Best Practices Used
 
 - Kept locators simple and reliable
-- Preferred focused, single-flow test scripts over large unstable ones
+- Preferred focused, single-flow test scripts over large, unstable ones
 - Avoided committing result files (`log.html`, `report.html`, `output.xml`) to keep the repo clean
 - Documented everything so any team member can pick it up and run it
 
 ---
 
-## 🚀 What's Next
+##  What's Next
 
 - Expand test coverage to more pages and edge cases
 - Add tests for new features as they ship
@@ -154,7 +154,7 @@ The pipeline flagged a **Gitleaks false positive** in `app.js`. After reviewing,
 
 ---
 
-## 👩🏾‍💻 About
+##  About
 
 Built by **Rita Ugwanyi** — Cloud & DevOps Engineer with a focus on quality, automation, and shipping things that actually work.
 

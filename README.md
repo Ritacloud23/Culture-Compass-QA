@@ -1,6 +1,6 @@
 #  Culture Compass - QA & Test Automation
 
-> Automated frontend testing for [culturecompass.co](https://culturecompass.co) — built from scratch with Robot Framework, SeleniumLibrary, and GitHub Actions CI/CD.
+> Automated frontend testing for [culturecompass.co](https://culturecompass.co) - built from scratch with Robot Framework, SeleniumLibrary, and GitHub Actions CI/CD.
 
 ---
 
@@ -26,7 +26,7 @@ When I joined the Culture Compass project, there was **zero test coverage**. I b
 | SeleniumLibrary | 6.8.0 | Browser automation library |
 | Python | 3.11.9 | Runtime environment |
 | WebDriver Manager | latest | Browser driver management |
-| GitHub Actions | — | CI/CD and scheduled execution |
+| GitHub Actions | - | CI/CD and scheduled execution |
 
 ---
 
@@ -156,6 +156,6 @@ The pipeline flagged a **Gitleaks false positive** in `app.js`. After reviewing,
 
 ##  About
 
-Built by **Rita Ugwanyi** — Cloud & DevOps Engineer with a focus on quality, automation, and shipping things that actually work.
+Built by **Rita Ugwuanyi** - Cloud & DevOps Engineer with a focus on quality, automation, and shipping things that actually work.
 
 🔗 [LinkedIn](https://linkedin.com/in/your-linkedin) • [GitHub](https://github.com/Ritacloud23)
